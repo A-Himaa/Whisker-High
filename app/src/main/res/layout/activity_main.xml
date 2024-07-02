@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloudysky_small"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+<!--Play Button-->
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="47dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/button_Play"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="213dp"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="27dp"
+        android:alpha="0.8"
+        app:srcCompat="@drawable/imgcat" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="245dp"
+        android:alpha="0.8"
+        app:srcCompat="@drawable/play" />
+
+</RelativeLayout>
